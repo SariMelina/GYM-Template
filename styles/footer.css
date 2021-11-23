@@ -1,0 +1,48 @@
+footer {
+    border-top: var(--gray-color) 1px solid;
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer .fecha {  
+    font-size: 13px;  
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer .redes {
+    color: var(--red-color);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer .redes span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: var(--gray-color) 1px solid;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.icono-flecha {
+    position: fixed;
+    color: white;
+    font-size: 25px;
+    font-family: var(--font-black);
+    text-decoration: none;
+    background-color: var(--red-color);
+    padding: 10px 20px;
+    bottom: 100px;
+    right: 15px;
+}

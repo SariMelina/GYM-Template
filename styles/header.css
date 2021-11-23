@@ -1,0 +1,35 @@
+header {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header figure {
+    padding: 0px;
+    max-width: 150px;
+}
+header figure img {
+    width: 100%;
+}
+nav {     
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     text-decoration: none;
+}
+nav a:hover {
+    border-bottom: var(--red-color) 2px solid;
+    padding: 4px 0px;
+    font-family: var(--font-regular);
+    font-size: 15px;
+    color: black;
+}
+nav a {
+    text-decoration: none;
+    padding: 5px 0px;
+    font-family: var(--font-regular);
+    font-size: 15px;
+    color: black;
+}

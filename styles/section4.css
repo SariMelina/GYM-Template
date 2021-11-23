@@ -1,0 +1,63 @@
+.coaches {
+    margin-top: 60px;
+    margin-bottom: 250px;
+    background-color: #EFEFEF;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    height: 300px;
+}
+.coaches figure {
+    padding: 0;
+    margin: auto;
+    max-width: 300px;
+}
+.coaches figure img {
+    width: 100%;
+}
+.coaches .articulos {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.coaches .articulos article{
+    box-shadow: gray 0px 2px 20px 0px;
+    padding-bottom: 20px;        
+}
+.coaches h2 {
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: var(--font-black);
+    text-align: center;
+}
+.coaches p {
+    margin-top: 5px;
+    font-size: 12px;
+    font-family: var(--font-light);
+    text-align: center;
+}
+.coaches article:hover #redes {
+    display: flex;    
+}
+.coaches .redes {
+    margin-top: 15px;
+    color: var(--red-color);
+    font-size: 13px;
+    display: none;
+    flex-wrap: wrap;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.coaches .redes span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: var(--gray-color) 1px solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Roboto-Black";
+    src: url('../fonts/Roboto-Black.ttf');
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: "Roboto-Light";
+    src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url('../fonts/Roboto-Thin.ttf');
+}
+:root {
+    /*      FONTS   */
+    --font-thin: "Roboto-Thin", sans-serif;
+    --font-light: "Roboto-Light", sans-serif;
+    --font-regular: "Roboto-Regular", sans-serif;
+    --font-bold: "Roboto-Bold", sans-serif;
+    --font-black: "Roboto-Black", sans-serif;
+    /*      COLORS      */
+    --red-color: #FF4048;
+    --gray-color: #c5c5c5;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: white;
+    margin: auto;
+    padding: 0px;
+    color: black;
+    font-family: var(--font-regular);
+}
+h1 {
+    text-align: center;
+    color: black;
+    font-family: var(--font-bold);
+    font-size: 30px;
+}
+.boton {
+    background-color: var(--red-color);
+    padding: 15px 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-black);
+}

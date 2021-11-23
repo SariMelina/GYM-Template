@@ -1,0 +1,27 @@
+.best-fit {
+    background-image: url('../images/slide1.jpg');
+    height: 750px;
+}
+.best-fit .limite {
+    height: 100%;
+    max-width: 1200px;    
+    text-align: right; 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.best-fit .limite h1 {   
+    font-family: var(--font-bold);
+    color: var(--red-color);
+    font-size: 70px;
+}
+.best-fit .limite p {   
+    font-family: var(--font-regular);
+    color: black;
+    margin: 20px 0px;
+    font-size: 15px;
+    max-width: 300px;
+    line-height: 25px;
+}
