@@ -12,6 +12,10 @@
     flex-wrap: wrap;
     gap: 50px;
 }
+.gallery figure:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
 .gallery figure {
     padding: 0px;
     margin: 0px;
@@ -21,7 +25,7 @@
     width: 100%;
 }
 .gallery .fotos {
-    max-width: 800px;
+    max-width: 830px;
     margin: 0;
     display: flex;
     flex-wrap: wrap;

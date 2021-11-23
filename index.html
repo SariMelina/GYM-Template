@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" 
     integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" 
     crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/section1.css">
@@ -14,6 +17,8 @@
     <link rel="stylesheet" href="./styles/section3.css">
     <link rel="stylesheet" href="./styles/section4.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./fancybox/jquery.fancybox.css">
+    <script type="text/javascript" src="./fancybox/jquery.fancybox.js"></script>
     <title>GYM Index</title>
 </head>
 <body>
@@ -91,16 +96,24 @@
         <div class="info-pic">            
             <div class="fotos">
                 <figure>
-                    <img src="./images/foto1.jpg" alt="">
+                    <a class="fancybox" rel="gallery1" href="./images/foto1.jpg">
+                        <img src="./images/foto1.jpg" alt="">
+                    </a>                    
                 </figure>
                 <figure>
-                    <img src="./images/foto3.jpg" alt="">
+                    <a class="fancybox" rel="gallery1" href="./images/foto3.jpg">
+                        <img src="./images/foto3.jpg" alt="">
+                    </a>                    
                 </figure>
                 <figure>
-                    <img src="./images/foto4.jpg" alt="">
+                    <a class="fancybox" rel="gallery1" href="./images/foto4.jpg">
+                        <img src="./images/foto4.jpg" alt="">
+                    </a>
                 </figure>
                 <figure>
-                    <img src="./images/foto2.jpg" alt="">
+                    <a class="fancybox" rel="gallery1" href="./images/foto2.jpg">               
+                        <img src="./images/foto2.jpg" alt="">
+                    </a>
                 </figure>
             </div>
             <div class="info">

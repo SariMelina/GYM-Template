@@ -38,6 +38,10 @@
     font-family: var(--font-light);
     text-align: center;
 }
+.coaches article:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
 .coaches article:hover #redes {
     display: flex;    
 }
